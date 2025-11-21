@@ -1,6 +1,6 @@
 "use client";
 
-import { cn } from "@/lib/utils";
+import { cn } from "@/app/lib/utils";
 import { IconMenu2, IconX } from "@tabler/icons-react";
 import { motion, AnimatePresence, useScroll, useMotionValueEvent } from "framer-motion";
 import React, { useState } from "react";
