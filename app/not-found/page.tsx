@@ -17,7 +17,7 @@ export default function NotFound() {
               initial={{ opacity: 0, scale: 0.6 }}
               animate={{ opacity: [0.2, 0.5, 0.2], scale: [0.6, 1, 0.6], rotate: [0, 15, -15, 0] }}
               transition={{ duration: Math.random() * 6 + 4, repeat: Infinity }}
-              className="absolute text-white/40"
+              className="absolute text-white/32"
               style={{ top: `${Math.random() * 100}%`, left: `${Math.random() * 100}%` }}
             >
               <Icon size={40} />
